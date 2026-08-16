@@ -1,249 +1,170 @@
-# Qingyun Business IP Poster Skill
+# Qingyun IP Poster
 
 <p align="center">
-  <strong>Turn 3–5 portrait references and a natural-language brief into 5, 7, or 10 distinct premium business IP posters.</strong>
+  <strong>One Skill for business IP batches, keynote statements, event campaigns, and creative character key art.</strong>
 </p>
 
-## Showcase · Five User-Approved Posters
-
-<p align="center">
-  <strong>3 identity references + 1 natural-language brief → 10 directions → 5 approved posters → 1 reusable Skill</strong>
-</p>
-
-<p align="center">
-  <img src="showcase/01-black-neon-green.png" width="31%" alt="Black and neon green summit poster">
-  <img src="showcase/02-ivory-editorial.png" width="31%" alt="Ivory editorial consultant poster">
-  <img src="showcase/03-graphite-thought-leader.png" width="31%" alt="Graphite thought leader poster">
-</p>
-
-<p align="center">
-  <img src="showcase/04-high-contrast-closeup.png" width="46%" alt="High-contrast close-up poster">
-  <img src="showcase/05-black-gold-authority.png" width="46%" alt="Black and champagne-gold authority poster">
-</p>
-
-<p align="center">
-  <strong>⭐ If this workflow helps your creative practice, please click Star in the upper-right corner.</strong><br>
-  Every Star helps more creators discover and improve this open workflow.
-</p>
-
-<p align="center">
-  <a href="https://github.com/qingyunAGI/qingyun-business-ip-poster-skill">
-    <img alt="Star this repository" src="https://img.shields.io/badge/%E2%AD%90-Star_this_repository-FFD54F?style=for-the-badge&logo=github&logoColor=111111">
-  </a>
-</p>
+<p align="center"><code>$qingyun-ip-poster</code></p>
 
 <p align="center">
   <a href="README.zh-CN.md">简体中文</a> ·
-  <a href="#installation">Installation</a> ·
-  <a href="#showcase--five-user-approved-posters">Showcase</a> ·
-  <a href="https://github.com/qingyunAGI/qingyun-business-ip-poster-skill/releases/latest">Latest Release</a>
+  <a href="#one-command-install">Install</a> ·
+  <a href="https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest">Latest Release</a>
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-C8A66A">
+  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-C8A66A">
   <img alt="Codex Skill" src="https://img.shields.io/badge/Codex-Skill-111111">
-  <img alt="Poster ratio 3:4" src="https://img.shields.io/badge/poster-3%3A4-4B5D36">
-  <img alt="Bilingual documentation" src="https://img.shields.io/badge/docs-English%20%7C%20中文-E8E1D3">
+  <img alt="Poster ratios 3:4 and 9:16" src="https://img.shields.io/badge/poster-3%3A4%20%7C%209%3A16-4B5D36">
+  <img alt="12 poster references" src="https://img.shields.io/badge/style%20references-12-8138EE">
 </p>
 
-`qingyun-business-ip-poster-skill` is a Codex skill for high-end personal-brand and expert posters. It converts loose copy and portrait references into a controlled batch of vertical 3:4 concepts with strong identity fidelity, readable headlines, factual discipline, and genuine visual variety.
+## New in v1.1
 
-The goal is not to recolor one template. The skill changes camera distance, pose, subject placement, scene, typography, information layout, accent color, and narrative emphasis across the batch—then checks every poster before delivery.
+### Cyber-xianxia: high-key character dossier × dark worldview key art
 
-## What It Does
+<p align="center">
+  <img src="assets/style-references/06-cyber-xianxia-character-dossier-light.png" width="46%" alt="High-key cyber-xianxia character dossier">
+  <img src="assets/style-references/08-cyber-xianxia-worldview-keyart-dark.png" width="46%" alt="Dark cyber-xianxia worldview key art">
+</p>
 
-- Guides the user to provide only the materials that matter.
-- Compiles natural-language copy into a structured poster brief.
-- Uses multiple portraits as identity anchors, not generic style references.
-- Generates **5, 7, or 10** visibly different 3:4 concepts.
-- Preserves names, roles, credentials, figures, and required wording.
-- Applies a restrained international business-editorial visual system.
-- Checks face consistency, typography, facts, crop safety, anatomy, and batch diversity.
-- Helps the user select 1–3 winning concepts for focused refinement.
+### Keynote statement × speaker-card series
 
-## Choose a Batch Size
+<p align="center">
+  <img src="assets/style-references/07-keynote-manifesto-dark.png" width="31%" alt="Dark keynote manifesto poster">
+  <img src="assets/style-references/09-guest-manifesto-orange-cap.png" width="31%" alt="Orange speaker statement card">
+  <img src="assets/style-references/12-guest-manifesto-purple.png" width="31%" alt="Purple speaker statement card">
+</p>
 
-| Batch | Best for | Recommendation |
-| --- | --- | --- |
-| **5 posters** | Fast direction finding with a smaller review set | Good for time-sensitive exploration |
-| **7 posters** | Balanced variety and efficient selection | **Recommended default** |
-| **10 posters** | A broader sample pool before selecting 1–3 concepts to refine | **Strongly recommended for important campaigns** |
+### 9:16 event master × 3:4 speaker derivative
 
-If the user asks to proceed without choosing, the skill defaults to **7 posters**.
+<p align="center">
+  <img src="assets/style-references/10-event-lineup-monumental.png" width="36%" alt="Monumental multi-speaker event poster">
+  <img src="assets/style-references/11-guest-manifesto-orange-suit.png" width="48%" alt="Single-speaker event statement card">
+</p>
 
-## Recommended Codex Settings
+The package retains the original five business-IP poster masters, giving the Skill a [12-image user-supplied reference library](assets/style-references/). Embedded names, roles, awards, dates, logos, version labels, and character copy have not been fact-checked by this repository. Treat them only as layout references, never as reusable claims, and confirm portrait and brand authorization before use.
 
-For the current Codex experience, the recommended setup is:
+The event-master source is preserved at its original `941 × 1672` size, which is approximately 9:16; production outputs should use exact `1080 × 1920` or another true 9:16 size. Any `V1.0.0` visible inside sample artwork belongs to the sample copy, not the current Skill release.
 
-1. Select **ChatGPT Chat**.
-2. Prefer **GPT-5.6 · High** for the strongest overall result.
-3. **GPT-5.5 · High** also performs well.
-4. When the workflow reaches image production, select **Generate images**.
+## One-command install
 
-These are quality recommendations, not hard installation requirements. Model and interface labels may change across Codex versions.
+Windows PowerShell:
 
-## Materials to Prepare
+```powershell
+git clone https://github.com/qingyunAGI/qingyun-ip-poster.git "$env:USERPROFILE\.codex\skills\qingyun-ip-poster"
+```
 
-### Required
+macOS / Linux:
 
-1. **3–5 portrait photos**
-   - At least one clear frontal portrait
-   - Ideally one half-body image
-   - A side profile, speaking, thinking, or work-scene photo if available
-2. **Main headline or core topic**
-3. **Name**
+```bash
+git clone https://github.com/qingyunAGI/qingyun-ip-poster.git ~/.codex/skills/qingyun-ip-poster
+```
 
-### Recommended
+Restart Codex or reload Skills, then invoke:
 
-- One-line role or positioning
-- 3–5 verified credentials or proof points
-- One figure, conclusion, or keyword worth emphasizing
-- Target platform
-- Logo, event name, time, location, brand color, or prohibited colors if relevant
+```text
+$qingyun-ip-poster
+```
 
-### Defaults
+Update an existing Windows installation with:
 
-- Ratio: vertical **3:4**
-- Suggested canvas: **1080 × 1440**
-- Platforms: WeChat Channels, Xiaohongshu, Douyin, and similar social feeds
-- Style: premium business editorial / thought-leader portrait
-- Batch size: **7**
+```powershell
+git -C "$env:USERPROFILE\.codex\skills\qingyun-ip-poster" pull
+```
+
+A ZIP package is also available from [GitHub Releases](https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest).
+
+## Four task routes
+
+| Route | Default output | Typical input | Ratio |
+| --- | --- | --- | --- |
+| Business IP batch | 7 distinct directions; refine 1–3 | 3–5 portraits of one person + statement/credentials | 3:4 |
+| Keynote manifesto | 3 directions or one requested poster | Speaker/portrait photo + one verified statement | 3:4 |
+| Event campaign set | 1 event master + N speaker cards | Event fact sheet + logo + speaker data/photos | 9:16 + 3:4 |
+| Creative IP key art | High-key dossier + dark key-art pair | Character reference or character/world brief | 3:4 |
+
+This is not a larger image folder attached to the old workflow. Version 1.1 routes the task first, then selects the required materials, ratio, grid, batch size, and quality gates. Event campaigns follow the actual speaker count instead of forcing every request into 5/7/10 outputs.
+
+## Core principles
+
+- **Information first** — read the claim, character, or event before the supporting details.
+- **Identity fidelity** — use supplied portraits as identity anchors; never generate a real person from a name alone.
+- **Factual discipline** — names, roles, awards, figures, dates, logos, and quotes must come from supplied or traceable sources.
+- **Layered production** — generate subject, scene, light, material, and safe zones; typeset exact Chinese, logos, and dates in a controlled layer.
+- **Series coherence** — share grids, typography, subject scale, lighting ratios, and footers while varying shot, pose, scene, and narrative.
+- **Single emphasis** — keep one visual center, one accent phrase, and one saturated accent color per poster.
 
 ## Workflow
 
-1. **Intake** — confirm portraits, copy, ratio, platform, and batch size.
-2. **Content compilation** — structure the headline, name, role, credentials, proof point, and exact text.
-3. **Direction matrix** — assign a distinct scene, shot, pose, layout, palette, and emphasis to each version.
-4. **Batch generation** — create independent prompts and use the supplied portraits as identity references.
-5. **Quality control** — check identity, text, facts, anatomy, readability, crop safety, and real visual difference.
-6. **Selection and refinement** — recommend 1–3 directions and refine only the strongest concepts.
+1. **Route** the request into business IP, keynote, event campaign, or character key art.
+2. **Compile facts** into one information card with supplied, verified, and unverified states.
+3. **Select a pattern** from the 12 references without copying sample-specific claims or identities.
+4. **Generate artwork** with the required subject, scene, light, material, and clean type-safe zones.
+5. **Typeset exact content** including Chinese, names, dates, logos, speaker grids, and footers.
+6. **Run QA** for identity, character continuity, facts, text, anatomy, props, thumbnail readability, and platform crop safety.
+7. **Refine** the strongest 1–3 directions.
 
-## Core Visual System
-
-| Direction | Visual language | Best for |
-| --- | --- | --- |
-| Black + neon green | Summit energy, bold headline, low-contrast stage atmosphere | Strong opinions and trend commentary |
-| Warm ivory + black side panel | Editorial structure, dark green accent, calm half-body portrait | Consultants, educators, and expert profiles |
-| Graphite texture + signal yellow | Restrained seated portrait with reduced supporting copy | Thought leadership and long-form viewpoints |
-| High-contrast black close-up | Face-led composition, oversized top headline, minimal geometry | Short-video covers and high-recognition IP columns |
-| Black + champagne gold | Symmetrical authority, controlled glow, formal hierarchy | Speakers, guests, annual talks, and milestone posters |
-
-Across a 7- or 10-poster batch, the skill also introduces meeting-table, architectural, event-stage, and high-end interview directions. Each poster uses one accent color and one primary emphasis.
-
-## Example Prompts
+## Example calls
 
 ```text
-Use these four portraits to create 7 premium 3:4 business IP posters.
-The headline is “Why AI Worker Products Are Built for Enterprise.”
-Preserve my name and every credential exactly. Explore visibly different
-camera distances, poses, layouts, and scenes before recommending two versions to refine.
+$qingyun-ip-poster
+Use these four portraits to create seven distinct 3:4 personal-IP posters.
+Preserve the headline and credentials exactly, and vary camera distance, position,
+scene, and title structure across the batch.
 ```
 
 ```text
-请先引导我准备人物照片和海报文案。我想做 10 张企业顾问个人 IP 海报，
-适合视频号和小红书，整体克制、可信、有国际商业杂志感。
+$qingyun-ip-poster
+Create one 9:16 event master and six 3:4 speaker statement cards.
+Use only the dates, times, names, roles, and logo in my event fact sheet.
 ```
 
 ```text
-Create five fast concept directions from these portraits. Keep the original
-Chinese copy unchanged, use only one accent color per poster, and reject any
-version with facial drift, unreadable text, invented logos, or repetitive layouts.
+$qingyun-ip-poster
+Use this character sheet to create a high-key dossier and a dark worldview key-art pair.
+Lock the face, silver hair, crown, mechanical armor, weapon, and restrained dark-red accent.
+Avoid neon-city cyberpunk and full-screen HUD graphics.
 ```
 
-## Quality Standard
+## Delivery gate
 
-A poster is ready only when all of the following are true:
+Do not deliver a version with:
 
-- The face still reads as the same real person.
-- The name, headline, role, credentials, and figures match the supplied copy.
-- The core headline remains readable at mobile-thumbnail size.
-- The composition has one visual center and one accent point.
-- Important text stays inside safe crop margins.
-- Hands, clothing, microphones, and body proportions are natural.
-- No unprovided client, award, event, logo, or brand claim has been invented.
-- The batch varies in more than color: shot, pose, subject position, scene, layout, and emphasis all change.
-- The result feels like a business editorial portrait—not a low-cost course-sales template.
+- Real-person identity drift or inconsistent character continuity.
+- Incorrect Chinese, names, roles, dates, times, or logos.
+- Invented awards, clients, events, brands, or real-person claims.
+- Broken hands, microphones, swords, chains, armor, furniture, or body proportions.
+- Critical information inside a platform crop or UI danger zone.
+- An unreadable subject or core statement at thumbnail size.
+- Batch “variation” created only by recoloring one layout.
 
-Any version with facial drift, critical text errors, malformed anatomy, fabricated information, unreadable hierarchy, or high similarity to another version must be repaired before delivery.
-
-## Suitable Scenarios
-
-- Personal IP and expert-profile posters
-- Consultant, founder, entrepreneur, lecturer, or guest introductions
-- WeChat Channels, Xiaohongshu, and Douyin covers
-- Keynote, forum, event, and interview promotion
-- Course instructor and knowledge-product campaigns
-- Thought-leadership columns and strong-opinion content
-- Business case studies and professional milestone posters
-
-## Installation
-
-### Option A — Download the release package
-
-Download [`qingyun-business-ip-poster-skill-1.0.zip`](qingyun-business-ip-poster-skill-1.0.zip) or use the [latest GitHub Release](https://github.com/qingyunAGI/qingyun-business-ip-poster-skill/releases/latest).
-
-After extraction, place the skill in your Codex skills directory. Rename the installed folder to match the skill ID:
-
-**Windows PowerShell**
-
-```powershell
-Expand-Archive .\qingyun-business-ip-poster-skill-1.0.zip .
-New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
-Move-Item .\qingyun-business-ip-poster-skill-1.0 `
-  "$env:USERPROFILE\.codex\skills\qingyun-business-ip-poster-skill-1-0"
-```
-
-**macOS / Linux**
-
-```bash
-unzip qingyun-business-ip-poster-skill-1.0.zip
-mkdir -p ~/.codex/skills
-mv qingyun-business-ip-poster-skill-1.0 \
-  ~/.codex/skills/qingyun-business-ip-poster-skill-1-0
-```
-
-Restart Codex or reload skills after installation.
-
-### Option B — Clone the repository
-
-```bash
-git clone https://github.com/qingyunAGI/qingyun-business-ip-poster-skill.git
-```
-
-Copy `qingyun-business-ip-poster-skill-1.0/` into your Codex skills directory and rename it to `qingyun-business-ip-poster-skill-1-0`.
-
-## Repository Structure
+## Repository structure
 
 ```text
-qingyun-business-ip-poster-skill/
+qingyun-ip-poster/
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+├── assets/
+│   └── style-references/       # 12 original poster references
+├── references/
+│   ├── design-system.md
+│   ├── failure-modes.md
+│   ├── intake-guide.md
+│   ├── prompt-compiler.md
+│   ├── quality-checklist.md
+│   └── version-matrix.md
 ├── README.md
-├── README.zh-CN.md
-├── qingyun-business-ip-poster-skill-1.0.zip
-├── qingyun-business-ip-poster-skill-1.0/
-│   ├── SKILL.md
-│   ├── agents/
-│   │   └── openai.yaml
-│   └── references/
-│       ├── design-system.md
-│       ├── failure-modes.md
-│       ├── intake-guide.md
-│       ├── prompt-compiler.md
-│       ├── quality-checklist.md
-│       └── version-matrix.md
-└── showcase/
-    ├── 01-black-neon-green.png
-    ├── 02-ivory-editorial.png
-    ├── 03-graphite-thought-leader.png
-    ├── 04-high-contrast-closeup.png
-    └── 05-black-gold-authority.png
+└── README.zh-CN.md
 ```
 
 ## Author
 
-**Peng Qingyun (Kaiwen)** is an AI content creator, AI short-drama director, educator, and content-productivity architect. His work focuses on AI video, personal IP, visual storytelling, and turning repeatable creative practice into reusable Codex skills, prompts, and production workflows.
+**Peng Qingyun (Kaiwen)** works across AI video, personal IP, visual storytelling, and reusable creative-production workflows, turning repeated practice into Codex Skills, prompts, and course assets.
 
 GitHub: [@qingyunAGI](https://github.com/qingyunAGI)
 
 ---
 
-This repository publishes version **1.0.0** of the skill and its five approved showcase images. No license file is included; please contact the author before redistribution or commercial repackaging.
+Current version: **1.1.0**. No open license is currently included; contact the author before redistribution or commercial repackaging.

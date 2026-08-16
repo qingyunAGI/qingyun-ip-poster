@@ -1,248 +1,170 @@
-# Qingyun 高级商务个人 IP 海报 Skill
+# Qingyun IP Poster
 
 <p align="center">
-  <strong>把 3—5 张人物参考照与一段自然语言需求，转化为 5 / 7 / 10 张真正有差异的高级商务个人 IP 海报。</strong>
-</p>
-
-## 5 张用户认可效果图
-
-<p align="center">
-  <strong>3 张人物身份参考 + 1 段自然语言文案 → 10 个方向探索 → 5 张认可版本 → 1 个可复用 Skill</strong>
+  <strong>一个 Skill，完成商务个人 IP、Keynote 观点、嘉宾活动整套与创意角色主视觉。</strong>
 </p>
 
 <p align="center">
-  <img src="showcase/01-black-neon-green.png" width="31%" alt="黑底荧光绿峰会型海报">
-  <img src="showcase/02-ivory-editorial.png" width="31%" alt="暖象牙白企业顾问型海报">
-  <img src="showcase/03-graphite-thought-leader.png" width="31%" alt="石墨灰思想领袖型海报">
-</p>
-
-<p align="center">
-  <img src="showcase/04-high-contrast-closeup.png" width="46%" alt="极黑超近景强识别海报">
-  <img src="showcase/05-black-gold-authority.png" width="46%" alt="黑金权威背书型海报">
-</p>
-
-<p align="center">
-  <strong>⭐ 如果这个工作流对你的创作有帮助，请点击仓库右上角的 Star。</strong><br>
-  每一颗 Star 都会帮助更多创作者发现、使用并共同完善这套开放工作流。
-</p>
-
-<p align="center">
-  <a href="https://github.com/qingyunAGI/qingyun-business-ip-poster-skill">
-    <img alt="给项目点 Star" src="https://img.shields.io/badge/%E2%AD%90-%E7%BB%99%E9%A1%B9%E7%9B%AE%E7%82%B9_Star-FFD54F?style=for-the-badge&logo=github&logoColor=111111">
-  </a>
+  <code>$qingyun-ip-poster</code>
 </p>
 
 <p align="center">
   <a href="README.md">English</a> ·
-  <a href="#安装方法">安装方法</a> ·
-  <a href="#5-张用户认可效果图">效果展示</a> ·
-  <a href="https://github.com/qingyunAGI/qingyun-business-ip-poster-skill/releases/latest">最新版本</a>
+  <a href="#一键安装">一键安装</a> ·
+  <a href="https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest">最新版本</a>
 </p>
 
 <p align="center">
-  <img alt="版本 1.0.0" src="https://img.shields.io/badge/version-1.0.0-C8A66A">
+  <img alt="版本 1.1.0" src="https://img.shields.io/badge/version-1.1.0-C8A66A">
   <img alt="Codex Skill" src="https://img.shields.io/badge/Codex-Skill-111111">
-  <img alt="海报比例 3:4" src="https://img.shields.io/badge/poster-3%3A4-4B5D36">
-  <img alt="中英双语文档" src="https://img.shields.io/badge/docs-English%20%7C%20中文-E8E1D3">
+  <img alt="海报比例 3:4 与 9:16" src="https://img.shields.io/badge/poster-3%3A4%20%7C%209%3A16-4B5D36">
+  <img alt="12 张参考海报" src="https://img.shields.io/badge/style%20references-12-8138EE">
 </p>
 
-`qingyun-business-ip-poster-skill` 是一个面向 Codex 的高级商务个人 IP 海报工作流。它会把零散文案与多张人物参考照整理成结构化设计任务，批量生成竖版 3:4 方案，并重点控制人物一致性、标题可读性、事实准确性与版本差异。
+## v1.1 新增设计系统
 
-它不是给同一张模板换 10 次颜色，而是主动变化镜头、姿态、人物位置、背景场景、标题结构、信息分栏、强调色和视觉叙事，再逐张完成质量检查。
+### 赛博修仙：高键角色档案 × 低键世界观 Key Art
 
-## 它能做什么
+<p align="center">
+  <img src="assets/style-references/06-cyber-xianxia-character-dossier-light.png" width="46%" alt="赛博修仙高键白角色档案海报">
+  <img src="assets/style-references/08-cyber-xianxia-worldview-keyart-dark.png" width="46%" alt="赛博修仙低键黑世界观海报">
+</p>
 
-- 用一条简洁引导帮助用户准备真正必要的素材。
-- 把自然语言文案编译成结构化海报信息卡。
-- 把多张人物照作为身份锚点，而不是普通风格参考。
-- 一次生成 **5 / 7 / 10 张**差异明显的竖版 3:4 方案。
-- 原样保护姓名、身份、履历、数字与必须保留的文字。
-- 使用克制的国际商业杂志与思想领袖视觉系统。
-- 检查人脸、文字、事实、肢体、缩略图可读性、裁切安全区与批次差异。
-- 从整组方案中推荐 1—3 张继续定向精修。
+### Keynote 观点 × 嘉宾系列卡
 
-## 生成数量怎么选
+<p align="center">
+  <img src="assets/style-references/07-keynote-manifesto-dark.png" width="31%" alt="暗场 Keynote 观点宣言海报">
+  <img src="assets/style-references/09-guest-manifesto-orange-cap.png" width="31%" alt="橙色嘉宾观点卡">
+  <img src="assets/style-references/12-guest-manifesto-purple.png" width="31%" alt="紫色嘉宾观点卡">
+</p>
 
-| 数量 | 适合情况 | 建议 |
-| --- | --- | --- |
-| **5 张** | 时间有限，快速探索主要方向 | 适合轻量测试 |
-| **7 张** | 兼顾多样性与筛选效率 | **默认推荐** |
-| **10 张** | 先建立更大的样本池，再挑 1—3 张精修 | **重要项目强烈推荐** |
+### 9:16 活动总海报 × 单人嘉宾衍生卡
 
-如果用户说“直接做”但没有选择数量，Skill 默认生成 **7 张**。
+<p align="center">
+  <img src="assets/style-references/10-event-lineup-monumental.png" width="36%" alt="巨字舞台式多人活动总海报">
+  <img src="assets/style-references/11-guest-manifesto-orange-suit.png" width="48%" alt="单人嘉宾观点卡">
+</p>
 
-## 推荐 Codex 模型设置
+完整参考库还保留 5 张原有商务个人 IP 母版，共计 [12 张用户提供的原始样本](assets/style-references/)。图片内嵌的姓名、身份、奖项、日期、Logo、版本号与角色文案未在本仓库复核真实性，只作为版式参考；不得摘引为事实或自动带入新作品，使用者还需自行确认肖像与品牌授权。
 
-在当前最新版 Codex 中，推荐按以下方式使用：
+其中活动总海报保留原始 `941 × 1672` 尺寸，接近 9:16；正式生产统一输出精确的 `1080 × 1920` 或其他等比 9:16 尺寸。样本中出现的 `V1.0.0` 属于画面内的示例文案，不代表当前 Skill 版本。
 
-1. 对话模式选择 **ChatGPT 聊天**。
-2. 首选 **GPT-5.6 · 高**，综合效果最佳。
-3. **GPT-5.5 · 高** 的效果也很不错。
-4. 进入正式出图阶段时，点选 **生成图片**。
+## 一键安装
 
-以上是为了获得更好效果的推荐设置，不是 Skill 的安装硬依赖；模型和界面选项名称可能随 Codex 版本更新。
+Windows PowerShell：
 
-## 素材准备
+```powershell
+git clone https://github.com/qingyunAGI/qingyun-ip-poster.git "$env:USERPROFILE\.codex\skills\qingyun-ip-poster"
+```
 
-### 必需素材
+macOS / Linux：
 
-1. **人物形象照 3—5 张**
-   - 至少 1 张清晰正脸
-   - 最好再有 1 张半身照
-   - 如有侧面、思考、演讲或工作场景照，一并提供
-2. **主标题或核心主题**
-3. **姓名**
+```bash
+git clone https://github.com/qingyunAGI/qingyun-ip-poster.git ~/.codex/skills/qingyun-ip-poster
+```
 
-### 推荐素材
+安装后重启 Codex 或重新加载 Skills，直接调用：
 
-- 一句话身份定位
-- 3—5 条可核验的核心背书
-- 1 个最值得强调的数字、结论或关键词
-- 发布平台
-- Logo、活动名称、时间、地点、品牌色、禁用色
+```text
+$qingyun-ip-poster
+```
 
-### 默认设置
+更新已安装版本：
 
-- 比例：竖版 **3:4**
-- 建议尺寸：**1080 × 1440**
-- 平台：视频号、小红书、抖音等社交媒体
-- 风格：高级商务杂志 / 思想领袖人物海报
-- 数量：**7 张**
+```powershell
+git -C "$env:USERPROFILE\.codex\skills\qingyun-ip-poster" pull
+```
+
+如果不使用 Git，也可以从 [GitHub Releases](https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest) 下载最新版 ZIP。
+
+## 四种任务路由
+
+| 模式 | 默认交付 | 需要什么 | 比例 |
+| --- | --- | --- | --- |
+| 商务个人 IP 批量 | 7 个差异方向，选 1—3 张精修 | 3—5 张同一人物照片 + 观点/履历 | 3:4 |
+| Keynote 观点宣言 | 3 个方向或指定 1 张 | 演讲/半身照 + 一句观点 | 3:4 |
+| 嘉宾与活动整套 | 1 张活动总海报 + N 张嘉宾卡 | 活动事实表 + Logo + 嘉宾资料/照片 | 9:16 + 3:4 |
+| 创意 IP 角色主视觉 | 高键白 + 低键黑双版本 | 角色参考图或角色/世界观简报 | 3:4 |
+
+这次升级不只是增加案例图，而是改变了 Skill 的判断方式：先路由任务，再选择素材、比例、网格、生成数量和质量门槛。活动整套按真实嘉宾数生成，不再强行套入 5/7/10 张逻辑。
+
+## 核心原则
+
+- **信息第一**：远看先识别主张、人物/角色或活动主题，近看再读身份与细节。
+- **身份准确**：现实人物使用照片作为身份锚点；不能只按姓名生成现实人物。
+- **事实准确**：姓名、职位、奖项、数字、日期、Logo 和引语必须来自用户材料或可追溯来源。
+- **图文分层**：模型生成主体、场景、光线、材质与留白；关键中文、Logo 和日期用可控排版完成。
+- **系列统一**：统一字体、网格、人物尺度、光比和页脚；差异来自镜头、动作、场景和叙事。
+- **单一强调**：一张海报只使用一个视觉中心、一个强调短语和一种高饱和强调色。
 
 ## 使用流程
 
-1. **素材确认**：核对人物照、文案、比例、平台与生成数量。
-2. **内容编译**：整理主标题、姓名、身份、背书、强调点和必须原样保留的文字。
-3. **版本矩阵**：为每张分配不同的场景、镜头、姿态、版式、色彩和强调方式。
-4. **批量生成**：为每个版本编写独立指令，并把用户照片作为身份参考。
-5. **逐张质检**：检查人脸、文字、事实、肢体、可读性、裁切与真实差异。
-6. **筛选精修**：从整组中推荐 1—3 张，对人脸、排版、色彩与背景做定向优化。
+1. **任务路由**：判断是个人 IP、Keynote、活动整套还是角色主视觉。
+2. **事实编译**：建立唯一信息卡，标记用户提供、已核实和待核实内容。
+3. **范式选择**：从 12 张样本提取构图、网格、材质与层级，不复制样本文案。
+4. **图像生产**：生成主体、场景、光线和清晰文字安全区。
+5. **准确排版**：放入中文、姓名、日期、Logo、嘉宾矩阵和页脚。
+6. **逐张质检**：检查身份、角色连续性、事实、中文、肢体、器物、缩略图和平台裁切。
+7. **筛选精修**：推荐最值得继续优化的 1—3 个方向。
 
-## 核心视觉体系
-
-| 方向 | 视觉语言 | 适用主题 |
-| --- | --- | --- |
-| 黑底 + 荧光绿 | 峰会动势、强标题、低对比舞台环境 | 趋势判断、强观点传播 |
-| 暖象牙白 + 黑侧栏 | 编辑式分栏、墨绿强调、稳重半身人像 | 顾问、讲师、专家介绍 |
-| 石墨灰 + 信号黄 | 克制坐姿、减少背书、强调深度观点 | 长期主义、人物访谈 |
-| 极黑超近景 | 人脸主导、标题压顶、极少几何元素 | 短视频封面、IP 栏目 |
-| 黑色 + 香槟金 | 对称权威、克制光晕、正式层级 | 大会嘉宾、年度演讲、里程碑 |
-
-在 7 张或 10 张模式下，还会加入会议桌决策者、建筑空间企业家、峰会演讲与极简人物专访等方向。每张只使用一种强调色，只突出一个关键词、数字或结论。
-
-## 示例提示词
+## 示例调用
 
 ```text
-请用这 4 张人物照做 7 张竖版 3:4 高级商务个人 IP 海报。
-主标题是“为什么 AI Worker 类产品都在盯着企业打”。
-姓名、身份和履历必须原样保留；镜头、姿态、人物位置、场景和标题结构要明显不同。
-完成后先推荐最值得精修的 2 张。
+$qingyun-ip-poster
+用这 4 张人物照做 7 张 3:4 个人 IP 海报。标题和履历必须原样保留，
+每张在镜头、人物位置、场景和标题结构上明显不同。
 ```
 
 ```text
-请先引导我准备人物照片和海报文案。我想做 10 张企业顾问个人 IP 海报，
-适合视频号和小红书，整体克制、可信、有国际商业杂志感。
+$qingyun-ip-poster
+把这场圆桌活动做成 1 张 9:16 总海报和 6 张 3:4 嘉宾观点卡。
+所有日期、时间、姓名、身份和 Logo 只使用我提供的事实表。
 ```
 
 ```text
-基于这些照片先快速探索 5 个方向。每张只能有一种强调色；
-出现人脸漂移、中文错字、虚构 Logo、手部畸形或版式重复时，必须先修复再交付。
+$qingyun-ip-poster
+基于这张角色设定图，做高键白角色档案和低键黑世界观 Key Art 双版本。
+锁定脸、银发、发冠、机械甲、武器和暗朱红点睛，不要霓虹城市和满屏 HUD。
 ```
 
-## 质量标准
+## 质量门槛
 
-同时满足以下条件，才算达到交付标准：
+以下问题未修复时，不交付：
 
-- 人物仍然是本人，脸型、五官、年龄感和显著特征没有漂移。
-- 姓名、标题、身份、履历、数字与用户提供的内容一致。
-- 海报缩小到手机缩略图后，仍能第一眼读出核心标题。
-- 画面只有一个视觉中心和一个主要强调点。
-- 重要文字不贴边，不落入平台裁切危险区。
-- 手部、服装、麦克风与人物比例自然。
-- 不虚构用户没有提供的客户、奖项、大会、Logo 或品牌。
-- 批量差异不只来自换色，镜头、姿态、位置、场景、版式和强调方式都应变化。
-- 整体像商业杂志人物封面，而不是廉价课程促销模板。
-
-凡是出现人脸不像本人、关键文字错误、肢体畸形、虚构信息、层级不可读或与其他版本高度相似的方案，都应先修复再交付。
-
-## 适用场景
-
-- 个人 IP、专家与顾问人物海报
-- 创始人、企业家、讲师、嘉宾介绍
-- 视频号、小红书、抖音封面
-- 峰会、论坛、演讲、访谈宣传
-- 课程讲师与知识产品推广
-- 思想领袖栏目与强观点内容
-- 商业案例、职业里程碑与品牌人物展示
-
-## 安装方法
-
-### 方法 A：下载发布包
-
-直接下载 [`qingyun-business-ip-poster-skill-1.0.zip`](qingyun-business-ip-poster-skill-1.0.zip)，或前往 [GitHub Releases](https://github.com/qingyunAGI/qingyun-business-ip-poster-skill/releases/latest) 获取最新版。
-
-解压后，把 Skill 放进 Codex 的 skills 目录。安装时建议把文件夹改名为与 Skill ID 一致：
-
-**Windows PowerShell**
-
-```powershell
-Expand-Archive .\qingyun-business-ip-poster-skill-1.0.zip .
-New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
-Move-Item .\qingyun-business-ip-poster-skill-1.0 `
-  "$env:USERPROFILE\.codex\skills\qingyun-business-ip-poster-skill-1-0"
-```
-
-**macOS / Linux**
-
-```bash
-unzip qingyun-business-ip-poster-skill-1.0.zip
-mkdir -p ~/.codex/skills
-mv qingyun-business-ip-poster-skill-1.0 \
-  ~/.codex/skills/qingyun-business-ip-poster-skill-1-0
-```
-
-安装后重启 Codex，或重新加载 Skills。
-
-### 方法 B：克隆仓库
-
-```bash
-git clone https://github.com/qingyunAGI/qingyun-business-ip-poster-skill.git
-```
-
-把仓库中的 `qingyun-business-ip-poster-skill-1.0/` 复制到 Codex skills 目录，并改名为 `qingyun-business-ip-poster-skill-1-0`。
+- 人脸不像本人，或同一角色在不同版本中漂移。
+- 中文、姓名、身份、日期、时间或 Logo 错误。
+- 出现用户未提供的奖项、客户、活动、品牌或现实人物身份。
+- 手、麦克风、剑、链条、盔甲、桌椅或人体比例畸形。
+- 重要信息落入平台裁切或操作区。
+- 缩略图无法识别主体和核心主张。
+- 同批海报只是换色，没有真实构图差异。
 
 ## 目录结构
 
 ```text
-qingyun-business-ip-poster-skill/
+qingyun-ip-poster/
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+├── assets/
+│   └── style-references/       # 12 张原始参考海报
+├── references/
+│   ├── design-system.md
+│   ├── failure-modes.md
+│   ├── intake-guide.md
+│   ├── prompt-compiler.md
+│   ├── quality-checklist.md
+│   └── version-matrix.md
 ├── README.md
-├── README.zh-CN.md
-├── qingyun-business-ip-poster-skill-1.0.zip
-├── qingyun-business-ip-poster-skill-1.0/
-│   ├── SKILL.md
-│   ├── agents/
-│   │   └── openai.yaml
-│   └── references/
-│       ├── design-system.md
-│       ├── failure-modes.md
-│       ├── intake-guide.md
-│       ├── prompt-compiler.md
-│       ├── quality-checklist.md
-│       └── version-matrix.md
-└── showcase/
-    ├── 01-black-neon-green.png
-    ├── 02-ivory-editorial.png
-    ├── 03-graphite-thought-leader.png
-    ├── 04-high-contrast-closeup.png
-    └── 05-black-gold-authority.png
+└── README.zh-CN.md
 ```
 
-## 作者介绍
+## 作者
 
-**彭青云（Kaiwen）**，AI 内容创作者、AI 短剧导演、AI 培训讲师与内容生产力架构师。长期关注 AI 视频、个人 IP、视觉叙事，以及如何把反复出现的创作实践沉淀为可复用的 Codex Skills、提示词和生产工作流。
+**彭青云（Kaiwen）**持续实践 AI 视频、个人 IP、视觉叙事与可复用创作工作流，并把高频生产方法沉淀为 Codex Skills、提示词与课程资产。
 
 GitHub：[@qingyunAGI](https://github.com/qingyunAGI)
 
 ---
 
-本仓库发布 Skill **1.0.0** 版本与 5 张已认可效果图。仓库暂未附带开源许可证；如需转载、二次分发或商业打包，请先联系作者。
+当前版本：**1.1.0**。仓库暂未附带开放许可证；转载、二次分发或商业打包前请联系作者。

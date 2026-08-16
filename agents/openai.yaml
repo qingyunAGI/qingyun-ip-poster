@@ -1,0 +1,4 @@
+interface:
+  display_name: "青云高级海报"
+  short_description: "把人物、活动与角色素材转成高级3:4或9:16海报"
+  default_prompt: "Use $qingyun-ip-poster to route my materials into the right poster mode and create a polished 3:4 or 9:16 result."
