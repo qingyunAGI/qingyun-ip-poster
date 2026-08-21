@@ -8,16 +8,53 @@
 
 <p align="center">
   <a href="README.zh-CN.md">简体中文</a> ·
+  <a href="#real-account-case-from-disconnected-covers-to-a-repeatable-visual-system">Case Study</a> ·
   <a href="#one-command-install">Install</a> ·
   <a href="https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest">Latest Release</a>
 </p>
 
 <p align="center">
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-C8A66A">
+  <img alt="Version 1.1.1" src="https://img.shields.io/badge/version-1.1.1-C8A66A">
   <img alt="Codex Skill" src="https://img.shields.io/badge/Codex-Skill-111111">
   <img alt="Poster ratios 3:4 and 9:16" src="https://img.shields.io/badge/poster-3%3A4%20%7C%209%3A16-4B5D36">
   <img alt="12 poster references" src="https://img.shields.io/badge/style%20references-12-8138EE">
 </p>
+
+## Real account case: from disconnected covers to a repeatable visual system
+
+After putting the Skill into his real publishing workflow, Wang Lei replied, “I’m using it.” The point of this case is not a single lucky poster. It shows how one person can build repeatable visual rules across an account.
+
+<table>
+  <tr>
+    <th width="50%">Before: crowded hierarchy and an unstable subject anchor</th>
+    <th width="50%">After: consistent subject, headline, and brand rules</th>
+  </tr>
+  <tr>
+    <td><img src="assets/case-studies/wang-lei-before-account-grid.jpg" alt="Wang Lei account grid before using Qingyun IP Poster"></td>
+    <td><img src="assets/case-studies/wang-lei-after-account-grid.jpg" alt="Wang Lei account grid after using Qingyun IP Poster"></td>
+  </tr>
+</table>
+
+Four visible changes:
+
+- **Clearer hierarchy** — headline, subject, identity, and supporting copy no longer compete at the same level.
+- **The person becomes the anchor** — thumbnails identify the speaker before asking readers to parse the claim.
+- **Stable visual DNA** — dark field, bold type, subject scale, and footer logic stay consistent while layouts still vary.
+- **Built for continuous publishing** — each cover works alone and the grid reads as one recognizable series.
+
+> Evidence boundary: these are not same-topic, same-copy, same-date A/B samples. They support a visual-order comparison only and do not establish traffic or conversion lift. Read the case article: [I open-sourced my commercial-grade poster Skill](https://mp.weixin.qq.com/s/NRuhMds4UYYwiZ-aJpjv0A).
+
+### Five business-IP masters for Wang Lei
+
+<p align="center">
+  <img src="assets/style-references/01-black-neon-green.png" width="19%" alt="Wang Lei black and neon-green summit poster">
+  <img src="assets/style-references/02-ivory-editorial.png" width="19%" alt="Wang Lei ivory editorial poster">
+  <img src="assets/style-references/03-graphite-thought-leader.png" width="19%" alt="Wang Lei graphite thought-leader poster">
+  <img src="assets/style-references/04-high-contrast-closeup.png" width="19%" alt="Wang Lei high-contrast close-up poster">
+  <img src="assets/style-references/05-black-gold-authority.png" width="19%" alt="Wang Lei black-and-gold authority poster">
+</p>
+
+The five masters share one identity and brand order while changing camera distance, subject placement, headline structure, scene, and information density. They are not one layout recolored five times.
 
 ## New in v1.1
 
@@ -43,7 +80,7 @@
   <img src="assets/style-references/11-guest-manifesto-orange-suit.png" width="48%" alt="Single-speaker event statement card">
 </p>
 
-The package retains the original five business-IP poster masters, giving the Skill a [12-image user-supplied reference library](assets/style-references/). Embedded names, roles, awards, dates, logos, version labels, and character copy have not been fact-checked by this repository. Treat them only as layout references, never as reusable claims, and confirm portrait and brand authorization before use.
+Together with the five business-IP masters shown above, the Skill includes a [12-image user-supplied reference library](assets/style-references/). Embedded names, roles, awards, dates, logos, version labels, and character copy have not been fact-checked by this repository. Treat them only as layout references, never as reusable claims, and confirm portrait and brand authorization before use.
 
 The event-master source is preserved at its original `941 × 1672` size, which is approximately 9:16; production outputs should use exact `1080 × 1920` or another true 9:16 size. Any `V1.0.0` visible inside sample artwork belongs to the sample copy, not the current Skill release.
 
@@ -109,6 +146,13 @@ This is not a larger image folder attached to the old workflow. Version 1.1 rout
 
 ```text
 $qingyun-ip-poster
+Here is my current account grid and five portraits. Audit subject anchoring, headline hierarchy,
+thumbnail readability, and series consistency first. Then define a repeatable visual DNA and
+create seven genuinely different 3:4 compositions.
+```
+
+```text
+$qingyun-ip-poster
 Use these four portraits to create seven distinct 3:4 personal-IP posters.
 Preserve the headline and credentials exactly, and vary camera distance, position,
 scene, and title structure across the batch.
@@ -126,6 +170,10 @@ Use this character sheet to create a high-key dossier and a dark worldview key-a
 Lock the face, silver hair, crown, mechanical armor, weapon, and restrained dark-red accent.
 Avoid neon-city cyberpunk and full-screen HUD graphics.
 ```
+
+## Commercial implementation and customization
+
+For a continuous visual system across a personal account, course, event, or team, open a [GitHub Issue](https://github.com/qingyunAGI/qingyun-ip-poster/issues/new) with the platform, output count, timing, current visual problem, and any public-safe references. Do not attach private source portraits or confidential business information to a public issue.
 
 ## Delivery gate
 
@@ -147,6 +195,7 @@ qingyun-ip-poster/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
+│   ├── case-studies/           # real-account before/after evidence
 │   └── style-references/       # 12 original poster references
 ├── references/
 │   ├── design-system.md
@@ -167,4 +216,4 @@ GitHub: [@qingyunAGI](https://github.com/qingyunAGI)
 
 ---
 
-Current version: **1.1.0**. No open license is currently included; contact the author before redistribution or commercial repackaging.
+Current version: **1.1.1**. No open license is currently included; contact the author before redistribution or commercial repackaging.

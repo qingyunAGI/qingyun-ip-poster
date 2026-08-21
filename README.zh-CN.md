@@ -10,16 +10,53 @@
 
 <p align="center">
   <a href="README.md">English</a> ·
+  <a href="#真实账号案例从零散封面到连续视觉系统">真实案例</a> ·
   <a href="#一键安装">一键安装</a> ·
   <a href="https://github.com/qingyunAGI/qingyun-ip-poster/releases/latest">最新版本</a>
 </p>
 
 <p align="center">
-  <img alt="版本 1.1.0" src="https://img.shields.io/badge/version-1.1.0-C8A66A">
+  <img alt="版本 1.1.1" src="https://img.shields.io/badge/version-1.1.1-C8A66A">
   <img alt="Codex Skill" src="https://img.shields.io/badge/Codex-Skill-111111">
   <img alt="海报比例 3:4 与 9:16" src="https://img.shields.io/badge/poster-3%3A4%20%7C%209%3A16-4B5D36">
   <img alt="12 张参考海报" src="https://img.shields.io/badge/style%20references-12-8138EE">
 </p>
+
+## 真实账号案例：从零散封面到连续视觉系统
+
+王磊把 Skill 用进真实账号后反馈：“用上了”。这组案例展示的不是一张偶然好看的海报，而是同一个人如何逐步建立可重复的账号视觉规则。
+
+<table>
+  <tr>
+    <th width="50%">使用前：信息拥挤，版式与人物锚点不稳定</th>
+    <th width="50%">使用 Skill 后：人物、标题与品牌规则连续统一</th>
+  </tr>
+  <tr>
+    <td><img src="assets/case-studies/wang-lei-before-account-grid.jpg" alt="王磊使用 Qingyun IP Poster Skill 前的账号九宫格"></td>
+    <td><img src="assets/case-studies/wang-lei-after-account-grid.jpg" alt="王磊使用 Qingyun IP Poster Skill 后的账号九宫格"></td>
+  </tr>
+</table>
+
+可以直接观察到四个变化：
+
+- **层级更清楚**：标题、人物、身份和补充信息不再同时抢注意力。
+- **人物成为锚点**：账号缩略图先识别人，再阅读主张。
+- **视觉 DNA 稳定**：统一黑底、粗字、人物尺度和页脚，同时保留构图变化。
+- **更适合连续发布**：单张成立，九宫格并排时也能形成栏目感与品牌识别。
+
+> 边界说明：前后截图并非同题材、同文案、同发布时间的严格 A/B 测试，只用于比较视觉秩序；不能据此推断流量或转化提升。案例方法详见文章：[我把商用级高审美海报 Skill，开源了](https://mp.weixin.qq.com/s/NRuhMds4UYYwiZ-aJpjv0A)。
+
+### 王磊商务个人 IP 五套母版
+
+<p align="center">
+  <img src="assets/style-references/01-black-neon-green.png" width="19%" alt="王磊黑底荧光绿峰会海报">
+  <img src="assets/style-references/02-ivory-editorial.png" width="19%" alt="王磊象牙白编辑风海报">
+  <img src="assets/style-references/03-graphite-thought-leader.png" width="19%" alt="王磊石墨灰思想领袖海报">
+  <img src="assets/style-references/04-high-contrast-closeup.png" width="19%" alt="王磊高对比近景观点海报">
+  <img src="assets/style-references/05-black-gold-authority.png" width="19%" alt="王磊黑金权威感海报">
+</p>
+
+五套母版共享同一人物身份与品牌秩序，但在景别、人物位置、标题结构、场景和信息密度上真实变化，不是给同一张图简单换色。
 
 ## v1.1 新增设计系统
 
@@ -45,7 +82,7 @@
   <img src="assets/style-references/11-guest-manifesto-orange-suit.png" width="48%" alt="单人嘉宾观点卡">
 </p>
 
-完整参考库还保留 5 张原有商务个人 IP 母版，共计 [12 张用户提供的原始样本](assets/style-references/)。图片内嵌的姓名、身份、奖项、日期、Logo、版本号与角色文案未在本仓库复核真实性，只作为版式参考；不得摘引为事实或自动带入新作品，使用者还需自行确认肖像与品牌授权。
+加上首页展开的 5 张商务个人 IP 母版，Skill 共有 [12 张用户提供的原始样本](assets/style-references/)。图片内嵌的姓名、身份、奖项、日期、Logo、版本号与角色文案未在本仓库复核真实性，只作为版式参考；不得摘引为事实或自动带入新作品，使用者还需自行确认肖像与品牌授权。
 
 其中活动总海报保留原始 `941 × 1672` 尺寸，接近 9:16；正式生产统一输出精确的 `1080 × 1920` 或其他等比 9:16 尺寸。样本中出现的 `V1.0.0` 属于画面内的示例文案，不代表当前 Skill 版本。
 
@@ -111,6 +148,12 @@ git -C "$env:USERPROFILE\.codex\skills\qingyun-ip-poster" pull
 
 ```text
 $qingyun-ip-poster
+这是我现在的账号九宫格和 5 张人物照片。先诊断人物锚点、标题层级、缩略图可读性和系列一致性，
+再建立一套可连续发布的视觉 DNA，并做 7 张真实构图不同的 3:4 海报。
+```
+
+```text
+$qingyun-ip-poster
 用这 4 张人物照做 7 张 3:4 个人 IP 海报。标题和履历必须原样保留，
 每张在镜头、人物位置、场景和标题结构上明显不同。
 ```
@@ -126,6 +169,10 @@ $qingyun-ip-poster
 基于这张角色设定图，做高键白角色档案和低键黑世界观 Key Art 双版本。
 锁定脸、银发、发冠、机械甲、武器和暗朱红点睛，不要霓虹城市和满屏 HUD。
 ```
+
+## 商务落地与定制
+
+如果你需要为个人账号、课程、活动或团队建立持续视觉系统，可以通过 [GitHub Issue](https://github.com/qingyunAGI/qingyun-ip-poster/issues/new) 提交需求。建议写明平台、交付数量、时间、现有视觉问题与可公开素材；敏感原图和未公开商业信息不要直接上传到公开 Issue。
 
 ## 质量门槛
 
@@ -147,6 +194,7 @@ qingyun-ip-poster/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
+│   ├── case-studies/           # 真实账号前后对比证据
 │   └── style-references/       # 12 张原始参考海报
 ├── references/
 │   ├── design-system.md
@@ -167,4 +215,4 @@ GitHub：[@qingyunAGI](https://github.com/qingyunAGI)
 
 ---
 
-当前版本：**1.1.0**。仓库暂未附带开放许可证；转载、二次分发或商业打包前请联系作者。
+当前版本：**1.1.1**。仓库暂未附带开放许可证；转载、二次分发或商业打包前请联系作者。
