@@ -1,4 +1,4 @@
 interface:
-  display_name: "青云高级海报"
-  short_description: "诊断账号视觉并生成高级3:4或9:16系列海报"
-  default_prompt: "Use $qingyun-ip-poster to audit my current visual system when provided, route the materials into the right poster mode, and create a polished 3:4 or 9:16 series."
+  display_name: "青云 IP 海报视觉系统"
+  short_description: "先诊断账号视觉，再生成可持续发布的高级系列海报"
+  default_prompt: "使用 $qingyun-ip-poster 诊断我的账号九宫格，并基于人物照片与内容建立可持续发布的海报视觉系统。"
